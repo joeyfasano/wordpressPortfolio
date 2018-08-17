@@ -1,0 +1,241 @@
+
+/* 
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Crimson Text', serif;
+ */
+
+ body {
+    font-family: 'Crimson Text', serif;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  .navbar {
+    font-family: 'Julius Sans One', sans-serif;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .navbar-item {
+     color: white;
+     background-color:rgba(0, 0, 0, 0)
+  }
+  
+  .navbar-item:hover {
+    color: white;
+    background-color:rgba(0, 0, 0, 0)
+  }
+  
+  .navbar-fixed-top.scrolled {
+    background-color: #0d4360 !important;
+    transition: background-color 200ms linear;
+  }
+  
+  /* navbar override */
+  a.navbar-item:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  
+  .hero { 
+  background: url('../images/joey.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  
+  .hero-body h1,
+  .hero-body h2 {
+    color: whitesmoke;
+  }
+    
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  /* color palette */
+  #footer {
+    background-color: #0d4360;
+    color: #b9c4c0;
+  }
+  /*#52614a*/
+  #footer i {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #projects {
+    background-color: #0d4360;
+  }
+  #projects h2,
+  #projects h3 {
+    color: white;
+  }
+  
+  #projects p {
+    color: white;
+    font-family: helvetica, sans-serif;
+  }
+  #contact {
+    background-color: #b9c4c0;
+  }
+  #beige {
+    background-color: #927d6c;
+  }
+  #about {
+    background-color: #b9c4c0
+  }
+  #about p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 20px;
+  }
+  #skills {
+    background-color: #ca9e56;
+    color: white;
+  }
+  
+  .navbar-burger span {
+    color:whitesmoke;
+  }
+  
+  .fa-angle-up {
+    color: #b9c4c0
+  }
+  .fa-angle-up:hover {
+    color: whitesmoke;
+  }
+  
+  .skill {
+    margin-right: 5%;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+  }
+  
+  .fontBlack {
+    color: black;
+  }
+  
+  .active-button {
+    color: #b9c4c0
+  }
+  
+  
+  /* BUTTON 5 */
+  .btn-5 {
+    overflow: hidden;
+  }
+  a, a > span {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    line-height: 24px;
+  }
+  a:before, a:after, a > span:before, a > span:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+  }
+  .effect-1 {
+    padding-top: 10px;
+  }
+  .effect-1:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #0883a4;
+    transform: scaleX(0);
+  }
+  .effect-1:hover:before {
+    transform: scaleX(1);
+  }
+  
+  .effect-2 {
+    padding: 10px;
+  }
+  .effect-2:before, .effect-2:after {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #b9c4c0;
+  }
+  .effect-2:before {
+    border-width: 2px 0 2px 0;
+    transform: scaleX(0);
+  }
+  .effect-2:after {
+    border-width: 0 2px 0 2px;
+    transform: scaleY(0);
+  }
+  .effect-2:hover:before, .effect-2:hover:after {
+    transform: scale(1, 1);
+  }
+  
+  .grow {
+    transition: all .2s ease-in-out;
+  }
+  .grow:hover
+  {
+    transform: scale(1.2);
+    color:whitesmoke;
+    transition: all .2s ease-in-out;
+  }
+  
+  .project-grow {
+    transition: all .2s ease-in-out;
+  }
+  .project-grow:hover {
+    transform: scale(1.03);
+    color:whitesmoke;
+    transition: all .2s ease-in-out;
+  }
+  .round {
+    border-radius: 50%;
+  }
+  
+  #contact { 
+    background: url('../images/palms.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+      /* Set a specific height */
+      
+  
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    /* project title */
+    h3 {
+      margin-top: 5%;
+    }
+  
+    /* media queries */
+    @media screen and (max-width: 1087px) {
+      #navbar-hamburger {
+        background-color: #0d4360;
+      }
+    }
+  
+  #headshot {
+    display: flex;
+    align-items: center;
+  }
